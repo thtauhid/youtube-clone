@@ -1,0 +1,19 @@
+.play {
+  display: flex;
+}
+
+.play__video {
+  flex: 0.8;
+}
+
+.play__others {
+  flex: 0.8;
+}
+
+.play__comments {
+  flex: 0.7;
+}
+
+.play__recommendations {
+  flex: 0.3;
+}
