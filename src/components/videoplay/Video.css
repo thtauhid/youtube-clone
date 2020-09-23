@@ -1,5 +1,9 @@
-.video > img {
-  /* align-items: center;
-  justify-content: center;
-  flex-direction: column; */
+.video__main {
+  background-color: black;
+}
+
+.video__main > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }

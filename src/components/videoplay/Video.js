@@ -4,7 +4,9 @@ import "./Video.css"
 function Video() {
   return (
     <div class="video">
-      <img src="../1.png" />
+      <div className="video__main">
+        <img src="../1.png" />
+      </div>
     </div>
   )
 }

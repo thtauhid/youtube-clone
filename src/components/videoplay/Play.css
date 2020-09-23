@@ -4,14 +4,13 @@
 
 .play__video {
   width: 100%;
-  background-color: black;
 }
 
-.play__others {
+.play__details {
   display: flex;
 }
 
-.play__comments {
+.play__detailsMain {
   flex: 0.7;
 }
 
