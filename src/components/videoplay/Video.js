@@ -3,7 +3,7 @@ import "./Video.css"
 
 function Video() {
   return (
-    <div>
+    <div class="video">
       <img src="../1.png" />
     </div>
   )

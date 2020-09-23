@@ -17,7 +17,7 @@ function App() {
         <Switch>
           <Router path="/watch/:videoId">
             <div className="app__page">
-              <Sidebar />
+              {/* <Sidebar /> */}
               <Play />
             </div>
           </Router>

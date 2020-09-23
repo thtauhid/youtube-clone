@@ -12,6 +12,7 @@ function Play() {
       <hr />
       <div className="play__others">
         <div className="play__comments">
+          Comments
           <Comments />
         </div>
         <div className="play__recommendations">Recommendations</div>

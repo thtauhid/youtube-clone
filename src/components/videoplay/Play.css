@@ -1,13 +1,14 @@
 .play {
-  display: flex;
+  flex: 1;
 }
 
 .play__video {
-  flex: 0.8;
+  width: 100%;
+  background-color: black;
 }
 
 .play__others {
-  flex: 0.8;
+  display: flex;
 }
 
 .play__comments {
