@@ -7,33 +7,40 @@ import ShareIcon from "@material-ui/icons/Share"
 import PlaylistAddIcon from "@material-ui/icons/PlaylistAdd"
 import MoreHorizIcon from "@material-ui/icons/MoreHoriz"
 
-function VideoDescription() {
+function VideoDescription({
+  title,
+  views,
+  timestamp,
+  likes,
+  dislikes,
+  channelName,
+  verified,
+  subscribers,
+  videoDescription,
+}) {
   return (
     <div className="videoDescription">
-      <h2>
-        Coldplay - Hymn For The Weekend - Alan Walker Remix | Sam Kolder -
-        (Unofficial Video)
-      </h2>
+      <h2>{title}</h2>
       <div className="videoDescription__details">
         <p className="videoDescription__detailsViewsnTime">
-          42,953,056 views • Mar 21, 2019
+          {views} views • {timestamp}
         </p>
         {/* <span class="my-spacer"></span> */}
         <div className="videoDescription__details_extras">
           <p className="videoDescription__details_extrasItem">
-            <ThumbUpIcon className="videoDescription__details_extrasItemIcon" />{" "}
-            27M
+            <ThumbUpIcon className="videoDescription__details_extrasItemIcon" />
+            {likes}
           </p>
           <p className="videoDescription__details_extrasItem">
-            <ThumbDownIcon className="videoDescription__details_extrasItemIcon" />{" "}
-            56M
+            <ThumbDownIcon className="videoDescription__details_extrasItemIcon" />
+            {dislikes}
           </p>
           <p className="videoDescription__details_extrasItem">
-            <ShareIcon className="videoDescription__details_extrasItemIcon" />{" "}
+            <ShareIcon className="videoDescription__details_extrasItemIcon" />
             SHARE
           </p>
           <p className="videoDescription__details_extrasItem">
-            <PlaylistAddIcon className="videoDescription__details_extrasItemIcon" />{" "}
+            <PlaylistAddIcon className="videoDescription__details_extrasItemIcon" />
             SAVE
           </p>
           <p className="videoDescription__details_extrasItem">
